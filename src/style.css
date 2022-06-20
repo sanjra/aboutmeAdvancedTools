@@ -38,32 +38,6 @@ div {
   display: block;
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-
-  h2 {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  p {
-    text-align: center;
-  }
-
-  .project-link {
-    display: block;
-    text-align: center;
-    margin-top: 0 20px;
-  }
-
-  .small-photo {
-    display: none;
-  }
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -122,4 +96,30 @@ div {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin-top: 0 20px;
+  }
+
+  .small-photo {
+    display: none;
+  }
 }
